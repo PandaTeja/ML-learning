@@ -11,7 +11,6 @@ df.columns = ["label", "message"]
 
 df['label'] = df['label'].map({'ham': 0, 'spam': 1})
 
-
 X=df['message']
 y = df['label']
 
