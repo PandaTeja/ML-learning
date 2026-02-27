@@ -8,7 +8,6 @@ df = pd.read_csv("resources/spam.csv",encoding="latin1",usecols=[0,1])
 
 df.columns = ["label", "message"]
 
-
 df['label'] = df['label'].map({'ham': 0, 'spam': 1})
 
 X=df['message']
