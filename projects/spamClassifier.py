@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score,classification_report
 
-df = pd.read_csv("resources/spam.csv",encoding="latin1",usecols=[0,1])
+df = pd.read_csv("dataSets/spam.csv",encoding="latin1",usecols=[0,1])
 
 df.columns = ["label", "message"]
 

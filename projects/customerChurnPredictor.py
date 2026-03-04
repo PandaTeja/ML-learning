@@ -10,7 +10,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 
-df = pd.read_csv("resources/Telco-Customer-Churn.csv")
+df = pd.read_csv("dataSets/Telco-Customer-Churn.csv")
 
 
 
