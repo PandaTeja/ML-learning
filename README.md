@@ -100,8 +100,9 @@ Learning ML by:
 ## Progress
 
 Phase 1: Completed  
-Phase 2: In Progress  
-Phase 3–6: Planned
+Phase 2: Completed 
+Phase 3–6: In-progess
+Phase 4-4: Planned
 
 ---
 
